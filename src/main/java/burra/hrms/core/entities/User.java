@@ -24,11 +24,11 @@ public class User {
   @Column(name = "id")
   private int id;
 
-  @Column(name = "email")
+  @Column(name = "email_address")
   @Email
   @NotBlank
   @NotNull
-  private String email;
+  private String emailAddress;
 
   @Column(name = "password")
   @NotBlank
