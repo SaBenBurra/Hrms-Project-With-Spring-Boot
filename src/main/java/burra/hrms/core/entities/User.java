@@ -34,4 +34,7 @@ public class User {
   @NotBlank
   @NotNull
   private String password;
+
+  @Column(name = "is_email_verified")
+  private boolean isEmailVerified;
 }
